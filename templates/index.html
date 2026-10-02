@@ -95,6 +95,7 @@
           {% for item in quiz %}
             <label class="quiz-question" for="answer-{{ item.number }}">
               <span class="quiz-focus">Knowledge point: {{ item.focus }}</span>
+              <div class="quiz-context"><strong>{{ item.course }} · {{ item.direction }}</strong><br><span>Scenario: {{ item.background }}</span></div>
               <strong>{{ item.number }}. {{ item.prompt }}</strong>
               <textarea id="answer-{{ item.number }}" name="answer_{{ item.number }}" rows="3" placeholder="Write your answer in your own words">{% if quiz_feedback %}{{ quiz_feedback[loop.index0].response }}{% endif %}</textarea>
             </label>
@@ -109,6 +110,8 @@
         {% for item in quiz_feedback %}
           <article class="quiz-feedback">
             <div class="quiz-focus">Knowledge point: {{ item.focus }}</div>
+            <div class="quiz-context"><strong>{{ item.course }} · {{ item.direction }}</strong><br><span>Scenario: {{ item.background }}</span></div>
+            <p><strong>Question:</strong> {{ item.prompt }}</p>
             <div class="citation">{{ 'Matched key terms' if item.correct else 'Review this topic' }} · {{ item.source }} · Page {{ item.page }}</div>
             <p><strong>Your answer:</strong> {{ item.response or 'No answer entered.' }}</p>
             <p><strong>Reference answer:</strong> {{ item.answer }}</p>

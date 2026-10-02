@@ -45,6 +45,8 @@ button:hover { background: #0d4f86; }
 .quiz-form { margin-top: 18px; }
 .quiz-question { display: block; margin: 18px 0; }
 .quiz-focus { display: inline-block; margin-bottom: 6px; padding: 3px 8px; border-radius: 999px; color: var(--blue); background: var(--pale); font-size: 12px; font-weight: 700; }
+.quiz-context { margin: 0 0 9px; padding: 9px 11px; border-left: 3px solid var(--blue); border-radius: 4px; background: var(--pale); color: var(--muted); font-size: 13px; line-height: 1.55; }
+.quiz-context strong { color: var(--ink); }
 .quiz-question strong { display: block; margin-bottom: 8px; }
 .quiz-question textarea { width: 100%; resize: vertical; border: 1px solid var(--line); border-radius: 8px; padding: 11px; font: inherit; }
 .quiz-score { margin-top: 18px; padding: 12px 14px; border-radius: 8px; background: var(--pale); font-weight: 700; }
