@@ -17,7 +17,7 @@ The local corpus is built from nine text-based PE6201 course PDFs. The names, ex
 | Week_1_notes_v2.pdf | 33 | 33 |
 | **Total** | **215** | **221** |
 
-The original PDFs are stored under `data/uploads/` on the development machine and are excluded from version control by `.gitignore`. The repository includes this manifest and `evaluation/qa_gold.csv`, but not the instructor PDFs. Before submission, include authorized copies if course rules permit; otherwise state that the evaluator must obtain the PDFs from the course and upload them locally. Do not redistribute course materials publicly without permission. Uploads and the generated index are needed for a fresh local run.
+The nine original PDFs are included under `data/uploads/` in this course submission, alongside the manifest and `evaluation/qa_gold.csv`, so the evaluator can reproduce the corpus. Uploads and the generated index are needed for a fresh local run. Keep access to course materials within the intended review audience unless course rules authorize broader distribution.
 
 ## Labeled question set
 

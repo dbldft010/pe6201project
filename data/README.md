@@ -2,9 +2,9 @@
 
 ## Course source PDFs
 
-The nine course PDFs used to build the current index are stored locally in `data/uploads/`. They are excluded from version control because course-material redistribution permission has not been confirmed. The checked-in `SOURCE_MANIFEST.csv` records each filename, page count, and indexed-passage count without reproducing the PDF content.
+The nine course PDFs used to build the current index are included in `data/uploads/` for this course submission so reviewers can reproduce the corpus. The checked-in `SOURCE_MANIFEST.csv` records each filename, page count, and indexed-passage count. Keep the repository access limited to its intended course-review audience unless broader distribution is authorized.
 
-For a fresh installation, obtain authorized copies of the listed PDFs from the course and upload them through the app. The app creates `index.json` and `summaries.json` locally. Those generated files are ignored by Git and should be regenerated from the PDFs instead of checked in.
+For a fresh installation, start the app and upload the provided PDFs through its interface to build an index. The app creates `index.json` and `summaries.json` locally. Those generated files are ignored by Git and should be regenerated from the PDFs instead of checked in.
 
 ## Evaluation data
 

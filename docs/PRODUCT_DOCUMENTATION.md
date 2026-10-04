@@ -63,7 +63,7 @@ Model answerability accuracy of 100% means only that the model answered or absta
 - The labeled set contains 68 cases: 46 development and 22 held-out test questions. A single test case changes a percentage noticeably, and questions authored alongside the system may not represent unseen student wording.
 - PDF extraction is text-based. Scanned pages, diagrams, tables, and formulas may not be searchable or faithfully represented.
 - Local token F1 is only a lexical proxy. Human review is needed to assess semantic answer correctness and whether each citation supports the nearby claim.
-- Source PDFs may be subject to course-material restrictions. Include them in a submitted or shared repository only when distribution is permitted; otherwise provide a manifest and instructions for authorized users to upload their copies.
+- The source PDFs are included in this course submission for evaluation and reproducibility. Do not redistribute them beyond the intended course-review audience unless course rules authorize broader sharing.
 - The application is intended for study and revision. It is not a substitute for course instructions, instructor feedback, or an authoritative answer key.
 
 ## Build-versus-buy summary

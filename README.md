@@ -2,7 +2,7 @@
 
 A course-specific learning assistant. Upload text-based lecture PDFs to create a searchable index and per-file summaries. Ask questions across the course and inspect the cited source pages, or generate short-answer revision prompts from indexed content and review the source evidence after submitting.
 
-For the submission package, see [Product Documentation](docs/PRODUCT_DOCUMENTATION.md), [Data and Evaluation Guide](evaluation/README.md), [Final Project Report](docs/FINAL_REPORT.md), and [Demo Script](docs/DEMO_SCRIPT.md). The source-material manifest and evaluation results should be included in the repository. Original course PDFs are excluded from version control; include them only if course distribution rules permit.
+For the submission package, see [Product Documentation](docs/PRODUCT_DOCUMENTATION.md), [Data and Evaluation Guide](evaluation/README.md), [Final Project Report](docs/FINAL_REPORT.md), and [Demo Script](docs/DEMO_SCRIPT.md). This course submission includes the nine source PDFs in `data/uploads/` so reviewers can reproduce the index. Check repository access settings before sharing the project beyond the course review.
 
 ## Run
 
